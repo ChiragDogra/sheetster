@@ -1,22 +1,35 @@
-import React from 'react'
+import React from "react";
 import "@arco-design/web-react/dist/css/arco.css";
+import { IconMenu, IconSearch } from "@arco-design/web-react/icon";
+import { IconButton, Avatar } from "@mui/material";
 
 function Header() {
   return (
-    <div className=''>
-        <div className=''>
-          <h1>Icon</h1>
-        </div>
+    <div className="sticky px-3 py-1 flex justify-between">
+      <div className="flex items-center">
+        <IconButton>
+          <IconMenu className="" />
+        </IconButton>
+      </div>
 
-        <div className=''>
+      <div className="flex items-center">
+        <input
+          type="text"
+          className=" px-2  border-2 rounded-lg "
+          name="search"
+        />
+        <IconButton>
+          <IconSearch />
+        </IconButton>
+      </div>
 
-        </div>
-
-        <div className=''>
-
-        </div>
+      <div className="flex items-center">
+        <IconButton>
+          <Avatar alt="Remy Sharp" src="" className="text-xs"/>
+        </IconButton>
+      </div>
     </div>
-  )
+  );
 }
 
-export default Header
+export default Header;
