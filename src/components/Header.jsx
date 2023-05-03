@@ -5,7 +5,7 @@ import { IconButton, Avatar } from "@mui/material";
 
 function Header() {
   return (
-    <div className="sticky px-3 py-1 flex justify-between">
+    <div className="sticky px-3 py-1 flex justify-between bg-gray-100 drop-shadow-sm">
       <div className="flex items-center">
         <IconButton>
           <IconMenu className="" />
