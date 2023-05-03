@@ -8,17 +8,13 @@ function Header() {
   return (
     <div className="sticky px-3 py-1 flex justify-between bg-gray-100 drop-shadow-sm">
       <div className="flex items-center">
-        {/* <IconButton>
-          <IconMenu className="" />
-        </IconButton> */}
-
         <TemporaryDrawer/>
       </div>
 
       <div className="flex items-center">
         <input
           type="text"
-          className=" px-2  border-2 rounded-lg h-8"
+          className=" px-2  border-2 rounded-lg h-8 md:w-80"
           name="search"
         />
         <IconButton>
