@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "./components/Header";
 import Template from "./components/Template";
+import HomeBody from "./components/HomeBody";
 
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <>
       <Header/>
       <Template/>
+      <HomeBody/>
     </>
   )
 }
