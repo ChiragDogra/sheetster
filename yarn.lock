@@ -1015,6 +1015,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@remix-run/router@npm:1.6.1":
+  version: 1.6.1
+  resolution: "@remix-run/router@npm:1.6.1"
+  checksum: 37d46dd9ff73ce6ca4d1df4d1283ec7515c96ef39b3f042b4071856ae5852008765e5ebe2db212d7dba08a6c19f4b1af3664c3765f4acdd3dcd3917feb5a4821
+  languageName: node
+  linkType: hard
+
 "@tootallnate/once@npm:2":
   version: 2.0.0
   resolution: "@tootallnate/once@npm:2.0.0"
@@ -3255,6 +3262,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"nanoid@npm:^4.0.2":
+  version: 4.0.2
+  resolution: "nanoid@npm:4.0.2"
+  bin:
+    nanoid: bin/nanoid.js
+  checksum: 0e28bade6b10396bc0936980c7569e9710341b3dd8775bcd0645b7d23f59ff64e59c4413f48836bc336711ef1cc4f61f6453946a3bf69c4c235fab9d221f9216
+  languageName: node
+  linkType: hard
+
 "natural-compare@npm:^1.4.0":
   version: 1.4.0
   resolution: "natural-compare@npm:1.4.0"
@@ -3751,6 +3767,30 @@ __metadata:
   languageName: node
   linkType: hard
 
+"react-router-dom@npm:^6.11.1":
+  version: 6.11.1
+  resolution: "react-router-dom@npm:6.11.1"
+  dependencies:
+    "@remix-run/router": "npm:1.6.1"
+    react-router: "npm:6.11.1"
+  peerDependencies:
+    react: ">=16.8"
+    react-dom: ">=16.8"
+  checksum: 1532e198268bea791919e2db1788d4dd4d90dc8e76612d0bae028b16e0ffaddc1c76e1af416a923eab09be8f71c27ae1d9ba257b9bfaef714d1f17f81c09b25d
+  languageName: node
+  linkType: hard
+
+"react-router@npm:6.11.1":
+  version: 6.11.1
+  resolution: "react-router@npm:6.11.1"
+  dependencies:
+    "@remix-run/router": "npm:1.6.1"
+  peerDependencies:
+    react: ">=16.8"
+  checksum: 5f39f6c6dbdd0d352416cc928dd61b8b8d321bc93f9135cc783fec125923c3ac8731af3fea07a8e97ce7b5eecf301e76fb6281872c85364b09d9b918118f72fc
+  languageName: node
+  linkType: hard
+
 "react-transition-group@npm:^4.3.0, react-transition-group@npm:^4.4.5":
   version: 4.4.5
   resolution: "react-transition-group@npm:4.4.5"
@@ -4048,9 +4088,11 @@ __metadata:
     eslint-plugin-react: "npm:^7.32.2"
     eslint-plugin-react-hooks: "npm:^4.6.0"
     eslint-plugin-react-refresh: "npm:^0.3.4"
+    nanoid: "npm:^4.0.2"
     postcss: "npm:^8.4.23"
     react: "npm:^18.2.0"
     react-dom: "npm:^18.2.0"
+    react-router-dom: "npm:^6.11.1"
     styled-components: "npm:^5.3.10"
     tailwindcss: "npm:^3.3.2"
     vite: "npm:^4.3.2"
