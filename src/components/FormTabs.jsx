@@ -2,6 +2,7 @@
 import { Tabs, Typography } from '@arco-design/web-react';
 import QuizIcon from '@mui/icons-material/Quiz';
 import QuestionAnswerIcon from '@mui/icons-material/QuestionAnswer';
+import QuestionForm from './QuestionForm';
 const TabPane = Tabs.TabPane;
 const style = {
   textAlign: 'center',
@@ -20,7 +21,8 @@ const FormTabs = () => {
           </span>
         }
       >
-        <Typography.Paragraph style={style}>Content of Tab Panel 1</Typography.Paragraph>
+              <QuestionForm/>
+
       </TabPane>
       <TabPane
         key='2'

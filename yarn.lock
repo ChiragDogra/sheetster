@@ -699,6 +699,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@heroicons/react@npm:^2.0.17":
+  version: 2.0.17
+  resolution: "@heroicons/react@npm:2.0.17"
+  peerDependencies:
+    react: ">= 16"
+  checksum: 1c001016233d40bda6ffb241e108c64ac4c1cbb49ea67bd5a2c5b0d804e9cfd2c1ac99b58d149e19cf6130a54af4e9f1d39baac31e40c240fb03a8c94d54eccf
+  languageName: node
+  linkType: hard
+
 "@humanwhocodes/config-array@npm:^0.11.8":
   version: 0.11.8
   resolution: "@humanwhocodes/config-array@npm:0.11.8"
@@ -4077,6 +4086,7 @@ __metadata:
     "@emotion/react": "npm:^11.10.8"
     "@emotion/styled": "npm:^11.10.8"
     "@fontsource/roboto": "npm:^4.5.8"
+    "@heroicons/react": "npm:^2.0.17"
     "@mui/icons-material": "npm:^5.11.16"
     "@mui/material": "npm:^5.12.3"
     "@mui/styled-engine-sc": "npm:^5.12.0"
